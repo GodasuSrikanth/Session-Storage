@@ -1,13 +1,15 @@
 //import logo from './logo.svg';
 import './App.css';
-import Types from './script';
+import Login from './Component/Login';
+//import Types from './script';
 
 function App() {
   return (
     <div className="App">
       
 
-      <Types/>
+      {/* <Types/> */}
+      <Login/>
 
     </div>
   );
